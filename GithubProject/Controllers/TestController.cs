@@ -6,11 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace GithubProject.Controllers
 {
-    public class DemoController : Controller
+    public class TestController : Controller
     {
         #region Constructor
 
-        public DemoController()
+        public TestController()
         {
 
         }
@@ -20,5 +20,7 @@ namespace GithubProject.Controllers
         {
             return View();
         }
+
+
     }
 }

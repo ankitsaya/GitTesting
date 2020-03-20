@@ -8,6 +8,14 @@ namespace GithubProject.Controllers
 {
     public class UserController : Controller
     {
+        #region Constructor
+
+        public UserController()
+        {
+
+        }
+
+        #endregion
         public IActionResult Index()
         {
             return View();
