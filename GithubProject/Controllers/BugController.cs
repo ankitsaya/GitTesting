@@ -6,12 +6,12 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace GithubProject.Controllers
 {
-    public class UserController : Controller
+    public class BugController : Controller
     {
-        #region Constuctor
+        #region BugController
 
         #endregion
-        
+
         public IActionResult Index()
         {
             return View();
